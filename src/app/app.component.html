@@ -1,1 +1,42 @@
-Hemlo
+<mat-card class="main-card">
+  <mat-tab-group>
+    <mat-tab label="First">
+      <mat-card>
+        <mat-card-header>
+          <mat-card-title>First Puzzle</mat-card-title>
+          <mat-card-subtitle>First and Second answer</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <h3>First: </h3> <span>{{ firstResponse.first }}</span>
+          <h3>Second: </h3> <span>{{ firstResponse.second }}</span>
+        </mat-card-content>
+      </mat-card>
+
+    </mat-tab>
+    <mat-tab label="Second">
+      <mat-card>
+        <mat-card-header>
+          <mat-card-title>Second Puzzle</mat-card-title>
+          <mat-card-subtitle>First and Second answer</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <h3>First: </h3> <span>{{ secondResponse.first }}</span>
+          <h3>Second: </h3> <span>{{ secondResponse.second }}</span>
+        </mat-card-content>
+      </mat-card>
+    </mat-tab>
+    <mat-tab label="Third">
+      <mat-card>
+        <mat-card-header>
+          <mat-card-title>Third Puzzle</mat-card-title>
+          <mat-card-subtitle>First and Second answer</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <h3>First: </h3> <span>{{ thirdResponse.first }}</span>
+          <h3>Second: </h3> <span>{{ thirdResponse.second }}</span>
+        </mat-card-content>
+      </mat-card>
+    </mat-tab>
+  </mat-tab-group>
+</mat-card>
+
